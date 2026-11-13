@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, .font-bebas {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Glassmorphism Styles: Futuristic Minimalist Neon Red & Dark Onyx */
+.glass-panel {
+  background: linear-gradient(135deg, rgba(16, 12, 16, 0.72) 0%, rgba(8, 7, 10, 0.85) 100%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 30, 68, 0.18);
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.85), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-panel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 30, 68, 0.6) 50%, transparent 100%);
+  pointer-events: none;
+}
+
+.glass-badge {
+  background: linear-gradient(180deg, rgba(22, 12, 16, 0.85) 0%, rgba(12, 6, 9, 0.95) 100%);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 30, 68, 0.45);
+  box-shadow: 0 0 25px rgba(255, 30, 68, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.glass-subcard {
+  background: linear-gradient(180deg, rgba(24, 15, 20, 0.45) 0%, rgba(12, 8, 12, 0.65) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-subcard:hover {
+  border-color: rgba(255, 30, 68, 0.6);
+  background: linear-gradient(180deg, rgba(38, 16, 24, 0.65) 0%, rgba(18, 8, 14, 0.82) 100%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 25px rgba(255, 30, 68, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050406;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 30, 68, 0.45);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 30, 68, 0.85);
+  box-shadow: 0 0 10px rgba(255, 30, 68, 0.6);
+}

@@ -1,0 +1,47 @@
+Diseño Pagina Web
+Diseño:Glassmorfista "Infinite Signal"
+colores:Negro(#000000),Amarillo(#F2A900),Azul(#007DCC),
+Fuentes:Bebas Neue(Diseñado por Ryoichi Tsunekawa)
+
+Informacion Personal:
+Nombre:Juan Francisco 
+Apellido:Benevente
+Edad:21
+Nacionalidad:Argentina
+Fecha de Nacimiento 19/9/2005
+Habilidades:Diseño Web(Canva),Canvas
+
+🚀 Habilidades / Skills
+
+🛠️ Habilidades Técnicas (Hard Skills)
+
+* **Desarrollo de Aplicaciones Móviles:** Creación e integración de aplicaciones funcionales para dispositivos móviles.
+* **Desarrollo Web Frontend / Backend:** Diseño y programación de sitios y plataformas web interactivas.
+* **Integración y Gestión de Agentes de IA:** Implementación y orquestación de modelos de Inteligencia Artificial (ej. Gemini) aplicados a software, supervisando su lógica, flujo de trabajo y calidad final.
+* **Arquitectura de Software y Control de Calidad:** Revisión minuciosa de código, supervisión de procesos y detección de errores para garantizar soluciones estables y optimizadas.
+
+💡 Habilidades Blandas (Soft Skills)
+
+* **Resolución de Problemas bajo Presión:** Enfoque analítico, sereno y estructurado para diagnosticar y solucionar fallas o imprevistos técnicos sin perder la calma.
+* **Organización y Planificación:** Alta capacidad para estructurar proyectos, gestionar tiempos y mantener procesos de trabajo ordenados.
+* **Atención al Detalle:** Rigor estético y funcional tanto en la programación como en el diseño de interfaces.
+* **Comunicación Clara y Didáctica:** Habilidad para explicar conceptos técnicos complejos paso a paso a clientes o miembros del equipo.
+
+🧰 Herramientas y Tecnologías
+
+* **Inteligencia Artificial:** Gemini API / Modelos de Lenguaje (LLMs) & Agentes de IA.
+* **Desarrollo:** HTML / CSS / JavaScript *(aquí podés sumar los lenguajes/frameworks específicos que uses, como React, Flutter, Python, Node.js, etc.)*.
+* **Diseño:** UI/UX Design, Maquetación y Prototipado *(ej. Figma, Adobe XD o la herramienta de diseño que utilices)*.
+
+
+Experiencia:Ninguna
+Formacion:
+Programacion(C.F.P N°402)(2024)
+Impresion 3D(C.F.L N°404)
+Animacion y Modelado(C.F.P N°402)(2024)
+Torneria(C.F.P N°402)(2025)
+Operador/Aministrador de Logistica Portuaria(C.F.L N°404)(2025)
+Desarrollo de Apps Moviles con Agentes de IA(C.F.L N°404)(2026)
+Prototipado de Videojuegos(C.F.L N°404)(2026)
+
+Espaciado:Medio
