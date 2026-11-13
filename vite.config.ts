@@ -1,11 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react' // O el plugin que uses (vue, svelte, etc.)
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {
-    port: 3000,
-    open: true,
-  },
-});
+  base: '/portfolio/', // ¡Importante! Debe coincidir exactamente con el nombre de tu repositorio
+})
